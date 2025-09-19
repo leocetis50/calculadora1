@@ -1,1 +1,26 @@
+import flet as ft
+import math
 
+def main(page: ft.Page):
+        page.title = "Calculadora Basica"
+        page.bgcolor = ft.Colors.BROWN_200
+
+titulo = ft.Text(
+        "💣Simple calculadora",
+        size = 30,
+        color = ft.Colors.CYAN_900,
+        text_align="center",
+        weight="blod"
+)
+
+num1 = ft.TextField(
+        label="Numero 1",
+        width=200,
+        text_style=ft.TextStyle(color=ft.Colors.DEEP_PURPLE_200)
+)
+num2 = ft.TextField(
+        label="Numero 2",
+        width=200,
+        text_style=ft.TextStyle(color=ft.Colors.GREEN_200)
+
+)
